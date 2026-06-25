@@ -37,6 +37,8 @@ gs = groundStation(scenario, ...
     "Latitude", 10, ...
     "Longitude", -30);
 
+% EXERCITIU 4 - Create gimbal + antena directionala
+
 access(satA, gs);
 
 viewer = satelliteScenarioViewer(scenario);
